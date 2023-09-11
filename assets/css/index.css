@@ -10,6 +10,11 @@ html {
     font-size: 62.5%;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
@@ -68,7 +73,7 @@ a {
     background: #e6f0ff;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
 }
 
@@ -92,7 +97,7 @@ a {
     padding: 8px 14px;
 }
 .navbar ul a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .navbar .action {
@@ -112,7 +117,7 @@ a {
 }
 
 .hero {
-    margin-top: 98px;
+    margin-top: 130px;
 }
 
 .hero .info {
