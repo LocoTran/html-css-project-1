@@ -606,15 +606,18 @@ a {
 }
 
 .footer .social-link {
-    margin-right: 11px;
+    margin-right: 16px;
     width: 28px;
     height: 28px;
-    font-size: 28px;
     border-radius: 3px;
+    line-height: 28px;
+    text-align: center;
+    color: #646464;
+    background: #f9f9f9;
 }
 
 .footer .social-link:hover {
-    color: #ccc;
+    background: #ccc;
 }
 
 .footer .row-bottom {
